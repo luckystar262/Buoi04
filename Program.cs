@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+namespace SystemTime
+{
+class Program
+{ 
+    private static void Main(string[] args)
+    {
+        DateTime localtime = DateTime.Now;
+        Console.WriteLine("bay gio la :" + localtime);
+            Console.WriteLine("bai tap da ket thuc");
+    }
+}
+
+
+}
